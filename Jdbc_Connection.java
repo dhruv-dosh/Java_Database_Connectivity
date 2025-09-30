@@ -9,7 +9,7 @@ public class Jdbc_Connection{
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             //creating a connection
-            Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/company","root","payas@2005");
+            Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/company","root","password");
 
             if (con.isClosed()) {
                 System.out.println("connection is closed");
