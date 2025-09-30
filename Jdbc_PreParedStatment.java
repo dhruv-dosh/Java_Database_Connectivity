@@ -11,7 +11,7 @@ public class Jdbc_PreParedStatment {
             //creating a connection
             String url ="jdbc:mysql://127.0.0.1:3306/LearningJdbc";
             String userName ="root";
-            String password ="payas@2005";
+            String password ="password";
             Connection con = DriverManager.getConnection(url,userName,password);
 
             //CREATING QUERY
